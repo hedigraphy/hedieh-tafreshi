@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    display: grid;
+    place-items: center;
+    background: #f9f9f9;
+  }
+  .clock {
+    background: #002afb;
+    height: 120px;
+    text-align: center;
+    padding: 0 30px;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+      3px 3px 7px rgba(255, 255, 255, 0.05);
+      {}
+  }
+  .display {
+    font-size: 80px;
+    color:white;
+    letter-spacing: 5px;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+  }
+  .display p {
+    width: 140px;
+  }
+  .display p:last-child {
+    margin-left: 2rem;
+  }
+  screen and (max-width: 768px) {
+    .display {
+      font-size: 50px;
+    
+    .display p {
+      width: 90px;
+    }
+  
